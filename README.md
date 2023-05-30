@@ -13,7 +13,7 @@ The proposed approach utilizes a genetic algorithm to search for the optimal sen
 The fitness of each candidate solution is evaluated based on the sensor's coverage at each point in the room. The algorithm takes into account obstacles in the room that may affect the coverage of sensors. The goal is to find an optimal configuration that maximizes the coverage while considering obstacles and sensor range limitations.
 
 ![image](https://github.com/aa05420/Optimized-Sensor-Placement-using-Evolutionary-Algorithm/assets/62726090/0f07ebce-b9d7-4ef4-9dc8-225e83fe10d1)
-![image](https://github.com/aa05420/Optimized-Sensor-Placement-using-Evolutionary-Algorithm/assets/62726090/b5f7fba9-2a12-4c94-9322-ac583051a430)
+![image](https://github.com/aa05420/Optimized-Sensor-Placement-using-Evolutionary-Algorithm/assets/62726090/b2bfe524-f6e4-43fe-8393-62a7ef62a85f)
 
 Benefits of Genetic Algorithm Approach
 Traditional optimization methods, such as gradient descent or linear programming, may not be suitable for this problem due to the large search space and nonlinear relationships between sensor placement and coverage. Genetic algorithms offer several advantages in this context:
