@@ -4,12 +4,10 @@
 
 This repository contains the implementation of a genetic algorithm (GA) approach for optimizing sensor placement in a room to enable effective environmental monitoring. The goal is to maximize the coverage of the monitored area by strategically placing sensors.
 
-#Introduction
-
+**Introduction**
 Optimizing sensor placement is crucial for engineering systems such as HVAC, security, and environmental systems. By achieving optimal sensor placement, system performance can be improved, downtime can be reduced, and catastrophic failures can be avoided. This optimization problem is formulated as a multi-objective optimization problem, where the objective is to maximize the coverage of the monitored area.
 
-#Methodology
-
+**Methodology**
 The proposed approach utilizes a genetic algorithm to search for the optimal sensor placement. The algorithm starts by generating a population of candidate solutions, where each solution represents a configuration of sensor placements. The population is then evolved through selection, crossover, and mutation operations.
 
 The fitness of each candidate solution is evaluated based on the sensor's coverage at each point in the room. The algorithm takes into account obstacles in the room that may affect the coverage of sensors. The goal is to find an optimal configuration that maximizes the coverage while considering obstacles and sensor range limitations.
@@ -17,7 +15,7 @@ The fitness of each candidate solution is evaluated based on the sensor's covera
 ![image](https://github.com/aa05420/Optimized-Sensor-Placement-using-Evolutionary-Algorithm/assets/62726090/7f3e3478-c5e0-4edb-b7bc-8ab06f8aa409)
 ![image](https://github.com/aa05420/Optimized-Sensor-Placement-using-Evolutionary-Algorithm/assets/62726090/b2bfe524-f6e4-43fe-8393-62a7ef62a85f)
 
-#Benefits of Genetic Algorithm Approach
+**Benefits of Genetic Algorithm Approach**
 
 Traditional optimization methods, such as gradient descent or linear programming, may not be suitable for this problem due to the large search space and nonlinear relationships between sensor placement and coverage. Genetic algorithms offer several advantages in this context:
 
@@ -26,7 +24,7 @@ Efficient exploration of the search space to find globally optimal solutions.
 Consideration of various factors such as coverage area, obstacle effects, and available number of sensors.
 More comprehensive and balanced solutions compared to traditional methods.
 
-#Conclusion
+**Conclusion**
 
 The proposed genetic algorithm-based approach provides a promising method for optimizing sensor placement in a room for environmental monitoring. By considering multiple objectives and constraints, such as coverage area and obstacle effects, the algorithm aims to find an optimal solution that maximizes the efficiency and effectiveness of the monitoring system.
 
